@@ -4,7 +4,7 @@ import streamlit as st
 
 # Leer el archivo CSV del conjunto de datos en un DataFrame
 car_data = pd.read_csv('vehicles_us.csv')
-
+#
 # Casilla de verificación para construir un histograma
 build_histogram = st.checkbox('Construir histograma')
 
